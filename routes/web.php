@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+
+
+Route::get('/', 'CuboController@index');
+Route::post('/', 'CuboController@create');
+Route::post('/update', 'CuboController@update');
+Route::post('/query', 'CuboController@query');
+
+
+Route::group(['middleware' => ['web']], function () {
+    //
 });
