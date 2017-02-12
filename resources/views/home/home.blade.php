@@ -21,7 +21,7 @@
             </div>
             <div class="col-md-2">
                 <button class="btn btn-success" :disabled="newCommand === ''" v-if="actions < cube.m" v-on:click="enviarComando">Enviar</button>
-                <button class="btn btn-success" v-if="actions >= cube.m" v-on:click="resetCube">Reset</button>
+                <button class="btn btn-success" v-if="actions >= cube.m" v-on:click="resetCube">Reiniciar</button>
             </div>
     </form>
 
