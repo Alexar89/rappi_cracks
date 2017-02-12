@@ -16,7 +16,7 @@
                 <div class="form-group">
                     <label for="exampleInputEmail1">Comando</label>
                     <input :disabled="actions >= cube.m" type="text" v-model="newCommand" class="form-control" id="exampleInputEmail1"
-                           placeholder="Insertar comando...">
+                           placeholder="Inserte comando...">
                 </div>
             </div>
             <div class="col-md-2">
@@ -30,22 +30,22 @@
             <div class="modal-content">
                 <form action="" novalidate>
                     <div class="modal-header">
-                        <h4 class="modal-title">Configura el cubo</h4>
+                        <h4 class="modal-title">Configurar el cubo</h4>
                     </div>
                     <div class="modal-body">
 
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Tests <span v-if="tests>0">@{{ tests + 1 }} de @{{ cube.t }}</span> </label>
+                            <label for="exampleInputEmail1">Casos de Prueba (Test) <span v-if="tests>0">@{{ tests + 1 }} de @{{ cube.t }}</span> </label>
                             <input type="number" v-model="cube.t" class="form-control" id="exampleInputEmail1"
                                    placeholder="" :disabled="tests!==0 && tests < cube.t">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">N Matrix</label>
+                            <label for="exampleInputEmail1">Matrix N</label>
                             <input type="number" v-model="cube.n" class="form-control" id="exampleInputEmail1"
                                    placeholder="">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">N Comandos</label>
+                            <label for="exampleInputEmail1">Comandos n</label>
                             <input type="number" v-model="cube.m" class="form-control" id="exampleInputEmail1"
                                    placeholder="">
                         </div>
@@ -53,7 +53,7 @@
 
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" v-on:click="config" class="btn btn-primary">Configurar</button>
+                        <button type="submit" v-on:click="config" class="btn btn-primary">Configuración</button>
                     </div>
                 </form>
             </div><!-- /.modal-content -->

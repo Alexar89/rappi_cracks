@@ -1,81 +1,45 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Rappi Cracks - Cube Summation</title>
-        <script src="pace/pace.js"></script>
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <title>Laravel</title>
 
-        <!-- Styles -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
+                height: 100%;
+            }
+
+            body {
                 margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;
+                font-weight: 100;
+                font-family: 'Lato';
             }
 
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
+            .container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
             }
 
             .content {
                 text-align: center;
+                display: inline-block;
             }
 
             .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
+                font-size: 96px;
             }
         </style>
     </head>
     <body>
-    <div class="container">
-        
-            <div class="title m-b-md" align="center">
-                Cube Summation   
-            </div>
-
-            <div class="form">
-            <input type="text" name="">
-                       
+        <div class="container">
+            <div class="content">
+                <div class="title">Laravel 5</div>
             </div>
         </div>
-</body>
+    </body>
 </html>

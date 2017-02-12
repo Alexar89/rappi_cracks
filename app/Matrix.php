@@ -1,9 +1,7 @@
 <?php
 /**
  * Created by Alexar89.
- * User: Diego
  * Date: 11/02/17
- * Time: 19:22 PM
  */
 
 namespace rappi_cracks;

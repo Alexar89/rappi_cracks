@@ -12,12 +12,10 @@
 */
 
 $factory->define(rappi_cracks\User::class, function (Faker\Generator $faker) {
-    static $password;
-
     return [
         'name' => $faker->name,
-        'email' => $faker->unique()->safeEmail,
-        'password' => $password ?: $password = bcrypt('secret'),
+        'email' => $faker->email,
+        'password' => bcrypt(str_random(10)),
         'remember_token' => str_random(10),
     ];
 });
